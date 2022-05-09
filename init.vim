@@ -13,3 +13,4 @@ endif
 
 source $HOME/.config/nvim/vim-plug/coc-setting.vim
 source $HOME/.config/nvim/vim-plug/defx-setting.vim
+source $HOME/.config/nvim/vim-plug/markdown-setting.vim

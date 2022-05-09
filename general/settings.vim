@@ -52,9 +52,15 @@ function! JavaScriptFold()
     endfunction
     setl foldtext=FoldText()
 endfunction
-au FileType javascript call JavaScriptFold()
-au FileType javascript setl fen
+"au FileType javascript call JavaScriptFold()
+"au FileType javascript setl fen
 
 set fillchars=fold:\ 
 set foldlevel=1
 set foldclose=all
+
+"-- FOLDING --  
+set foldmethod=syntax "syntax highlighting items specify folds  
+set foldcolumn=1 "defines 1 col at window left, to indicate folding  
+let javaScript_fold=1 "activate folding by JS syntax  
+set foldlevelstart=99 "start file with all folds opened

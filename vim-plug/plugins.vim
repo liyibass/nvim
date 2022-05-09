@@ -20,6 +20,7 @@ Plug 'jparise/vim-graphql'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
 
 if has('nvim')
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' },
