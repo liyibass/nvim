@@ -14,10 +14,12 @@ if (empty($TMUX))
   endif
 endif
 
-syntax on
-colorscheme onedarkpro
 
 "lightline setting
 let g:lightline = {
   \ 'colorscheme': 'one',
   \ }
+g:onedark_termcolors = 256
+
+syntax on
+colorscheme onedark

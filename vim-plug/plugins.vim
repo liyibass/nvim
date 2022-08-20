@@ -2,7 +2,7 @@
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.nvim/plugged')
 
 " Make sure you use single quotes
 
@@ -35,6 +35,5 @@ Plug 'kristijanhusak/defx-icons'
 Plug 't9md/vim-choosewin'
 
 Plug 'itchyny/lightline.vim'
-Plug 'olimorris/onedarkpro.nvim'
 call plug#end()
 
