@@ -3,7 +3,6 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
-source $HOME/.config/nvim/general/theme-setting.vim
 
 
 set laststatus=2
@@ -14,3 +13,4 @@ endif
 source $HOME/.config/nvim/vim-plug/coc-setting.vim
 source $HOME/.config/nvim/vim-plug/defx-setting.vim
 source $HOME/.config/nvim/vim-plug/markdown-setting.vim
+source $HOME/.config/nvim/general/theme-setting.vim

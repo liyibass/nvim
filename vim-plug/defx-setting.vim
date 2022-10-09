@@ -65,7 +65,7 @@ function! s:defx_my_settings() abort
 	  \ defx#do_action('open_or_close_tree')
 	  nnoremap <silent><buffer><expr> ND
 	  \ defx#do_action('new_directory')
-	  nnoremap <silent><buffer><expr> N
+	  nnoremap <silent><buffer><expr> NF
 	  \ defx#do_action('new_file')
 	  nnoremap <silent><buffer><expr> M
 	  \ defx#do_action('new_multiple_files')

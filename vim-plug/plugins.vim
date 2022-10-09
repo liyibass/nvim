@@ -8,8 +8,8 @@ call plug#begin('~/.nvim/plugged')
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'joshdick/onedark.vim'
-Plug 'sheerun/vim-polyglot'
 "Plug 'prettier/vim-prettier'
 Plug 'posva/vim-vue'
 "Plug 'preservim/nerdtree'
